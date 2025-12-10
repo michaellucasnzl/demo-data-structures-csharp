@@ -3,6 +3,9 @@
  * HASHSET EXERCISES - C# Data Structures
  * =============================================================================
  * 
+ * Microsoft Learn Documentation:
+ * https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.hashset-1
+ * 
  * HashSet<T> is a collection of unique elements with O(1) average-case 
  * lookup, insertion, and deletion. It implements set operations like
  * union, intersection, and difference.

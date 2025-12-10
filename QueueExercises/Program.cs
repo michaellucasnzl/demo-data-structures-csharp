@@ -3,6 +3,9 @@
  * QUEUE EXERCISES - C# Data Structures
  * =============================================================================
  * 
+ * Microsoft Learn Documentation:
+ * https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.queue-1
+ * 
  * Queue<T> is a First-In-First-Out (FIFO) collection. Elements are added at
  * the back and removed from the front. All operations are O(1).
  * 

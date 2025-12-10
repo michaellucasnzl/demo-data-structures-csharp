@@ -4,7 +4,7 @@ A comprehensive collection of C# console applications demonstrating various data
 
 ## 📋 Overview
 
-This repository contains 10 console applications, each focused on a specific data structure. Each project includes:
+This repository contains 9 console applications, each focused on a specific data structure. Each project includes:
 - Documentation of basic operations and methods
 - 10 interview-style exercises ranging from basic to advanced
 - Space for you to implement solutions
@@ -20,7 +20,6 @@ This repository contains 10 console applications, each focused on a specific dat
 | Project | Data Structure | Key Concepts |
 |---------|---------------|--------------|
 | `ArrayExercises` | Array | Fixed-size, indexing, sorting, searching |
-| `HashMapExercises` | HashMap (Dictionary) | Key-value pairs, O(1) lookup, hashing |
 | `HashSetExercises` | HashSet | Unique elements, set operations |
 | `ListExercises` | List&lt;T&gt; | Dynamic arrays, LINQ operations |
 | `QueueExercises` | Queue&lt;T&gt; | FIFO, BFS, PriorityQueue |

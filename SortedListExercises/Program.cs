@@ -3,6 +3,9 @@
  * SORTEDLIST EXERCISES - C# Data Structures
  * =============================================================================
  * 
+ * Microsoft Learn Documentation:
+ * https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.sortedlist-2
+ * 
  * SortedList<TKey, TValue> is a collection of key-value pairs sorted by key.
  * It uses less memory than SortedDictionary but has slower insertion/removal
  * for unsorted data. Access by index is O(1), but insertion is O(n).

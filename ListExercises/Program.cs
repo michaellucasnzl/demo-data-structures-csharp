@@ -3,6 +3,9 @@
  * LIST EXERCISES - C# Data Structures
  * =============================================================================
  * 
+ * Microsoft Learn Documentation:
+ * https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1
+ * 
  * List<T> is a dynamic array that grows automatically. It provides O(1) access
  * by index, O(1) amortized addition at the end, but O(n) for insertion/removal
  * at arbitrary positions.

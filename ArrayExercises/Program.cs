@@ -3,6 +3,10 @@
  * ARRAY EXERCISES - C# Data Structures
  * =============================================================================
  * 
+ * Microsoft Learn Documentation:
+ * https://learn.microsoft.com/en-us/dotnet/api/system.array
+ * https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/arrays
+ * 
  * Arrays are fixed-size, zero-indexed collections of elements of the same type.
  * They provide O(1) access by index but O(n) for insertion/deletion.
  * 

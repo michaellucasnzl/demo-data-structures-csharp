@@ -3,6 +3,9 @@
  * DICTIONARY EXERCISES - C# Data Structures
  * =============================================================================
  * 
+ * Microsoft Learn Documentation:
+ * https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2
+ * 
  * Dictionary<TKey, TValue> is a collection of key-value pairs with O(1) 
  * average-case lookup, insertion, and deletion. Keys must be unique.
  * 

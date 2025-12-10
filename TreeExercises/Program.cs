@@ -3,6 +3,10 @@
  * TREE EXERCISES - C# Data Structures
  * =============================================================================
  * 
+ * Microsoft Learn Documentation:
+ * https://learn.microsoft.com/en-us/dotnet/standard/collections/
+ * (Note: C# doesn't have a built-in Tree class - custom implementation required)
+ * 
  * Trees are hierarchical data structures with a root node and child nodes.
  * Binary Trees have at most 2 children per node.
  * Binary Search Trees (BST) maintain ordering: left < parent < right.

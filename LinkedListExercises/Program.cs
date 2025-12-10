@@ -3,6 +3,9 @@
  * LINKEDLIST EXERCISES - C# Data Structures
  * =============================================================================
  * 
+ * Microsoft Learn Documentation:
+ * https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.linkedlist-1
+ * 
  * LinkedList<T> is a doubly-linked list with O(1) insertion/deletion at known
  * positions, but O(n) access by index. Each node has Previous and Next pointers.
  * 

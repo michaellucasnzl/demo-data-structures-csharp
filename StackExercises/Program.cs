@@ -3,6 +3,9 @@
  * STACK EXERCISES - C# Data Structures
  * =============================================================================
  * 
+ * Microsoft Learn Documentation:
+ * https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.stack-1
+ * 
  * Stack<T> is a Last-In-First-Out (LIFO) collection. Elements are added and
  * removed from the same end (top). All operations are O(1).
  * 

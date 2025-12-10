@@ -3,6 +3,9 @@
  * HASHMAP EXERCISES - C# Data Structures
  * =============================================================================
  * 
+ * Microsoft Learn Documentation:
+ * https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2
+ * 
  * Note: C# doesn't have a "HashMap" class. The equivalent is Dictionary<TKey, TValue>
  * or Hashtable (non-generic, legacy). This exercise uses Dictionary which is the
  * modern, type-safe implementation of a hash map in C#.
