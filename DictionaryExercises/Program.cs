@@ -103,3 +103,30 @@ Console.WriteLine("Complete the exercises above to master C# Dictionary<TKey, TV
 Console.WriteLine();
 
 // Your code here...
+/*
+ * Exercise 1: Word Frequency Counter
+ *    Count occurrences of each word in a paragraph.
+ *    Handle case-insensitivity and punctuation.
+*/
+
+var paragraph = "Hello, world! Hello everyone. Welcome to the world of C# programming.";
+
+var words = System.Text.RegularExpressions.Regex.Matches(paragraph.ToLower(), @"\b\w+\b")
+    .Cast<System.Text.RegularExpressions.Match>()
+    .Select(m => m.Value).ToArray();
+
+Console.WriteLine(string.Join(" ", words));
+
+var frequency = new Dictionary<string, int>();
+
+foreach (string word in words)
+{
+    frequency.TryGetValue(word, out int value);
+    value++;
+    frequency[word] = value;
+}
+
+foreach (var match in frequency)
+{
+    Console.WriteLine("Word:{0} Count:{1}", match.Key, match.Value);
+}
