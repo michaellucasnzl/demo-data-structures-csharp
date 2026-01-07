@@ -93,4 +93,21 @@ Console.WriteLine("=== HashSet Exercises ===");
 Console.WriteLine("Complete the exercises above to master C# HashSet!");
 Console.WriteLine();
 
-// Your code here...
+/*    Given an array with duplicates, return an array with unique elements only.
+ *    Example: [1, 2, 2, 3, 4, 4, 5] → [1, 2, 3, 4, 5]
+ */
+
+var input = new int[]{1, 2, 2, 3, 4, 4, 5};
+var set = new HashSet<int>();
+foreach(var i in input)
+{
+    Console.WriteLine("Iterating: {0}", i);
+    set.Add(i);
+}
+
+Console.WriteLine("Set contains {0} elements:", set.Count);
+foreach(var i in set)
+{
+    Console.WriteLine(i);
+}
+Console.WriteLine("--- END ---");
